@@ -11,7 +11,6 @@ options.add_argument("nwapp=C:/Users/Me/Documents/POS_Application/2021-09-09/bac
 
 driver = webdriver.Chrome("C:/Users/Me/Documents/POS_Application/2021-09-09/backup/nwjs-sdk-v0.54.0-win-x64/chromedriver.exe", options= options)
 
-
 #maximize window
 driver.maximize_window()
 time.sleep(2)
